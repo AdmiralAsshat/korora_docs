@@ -48,22 +48,37 @@ You can still search for the app "deja-dup", and Backups will show in the result
 
 Launch Deja-Dup / Backups. If you have not launched it before, you will need to configure what directories to include by clicking the "Folders to save" tab. By default, the current user's Home directory will be included.
 
+![folders to save](assets/folders_to_save.png "Selecting which directories to backup")
+
 Click the tab "Folders to ignore" and add any subdirectories within your Saved folders that you want Deja-Dup to skip.
+
+![folders to ignore](assets/folders_to_ignore.png "Selecting which directories to ignore")
 
 **NOTE**: Since many subdirectories that you may wish to add to the Save or Ignore pile are hidden, you may not be able to see them inside your File Manager program with the default settings. Should that happen, when you are presented with the prompt to Choose Folders pop-out menu, right-click the menu and check the box "Show Hidden Files". 
 
+![show hidden files](assets/show_hidden_files.png "How to display hidden files in the file selection screen")
+
 ### Restoring Files via Deja-Dup
 
-If your file manager does not support direct integration with Deja-Dup, you can use the commands below to manually restore file.
+If your file manager does not support direct integration with Deja-Dup, you can use the deja-dup from the command-line to manually restore files.
 
 #### Restoring an Individual File
 
-To restore or revert an individual file using Deja-Dup, enter the following command:
+To restore or revert an individual file using Deja-Dup, right-click on the file and select `Revert to Previous Version...`:
+
+![revert from backup](assets/revert_from_gui.png "Restoring a file to an earlier version found in the backups")
+
+If that option is not available in your File Manager, enter the following command in the terminal:
 
     deja-dup --restore /path/to/file
 
 #### Restoring a Directory
 
-To restore a directory of all missing files via Deja-Dup, enter the following command:
+To restore a directory of all missing files via Deja-Dup, open the directory in question and right-click anywhere inside the folder. Then select the option `Restore Missing Files...`:
+
+![restore missing files](assets/restore_missing_from_gui.png "Restoring any missing files in a directory found in the backups")
+
+If that option is not available in your File Manager, enter the following command in the terminal:
+
 
     deja-dup --restore-missing /path/to/dir
