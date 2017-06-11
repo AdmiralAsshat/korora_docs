@@ -20,3 +20,16 @@ Be aware that within application directories there may also reside cache subdire
 
 **NOTE**: "~/" is an alias to the user's home directory. So if you are logged in as 'guest', ~/.config would evaluate to */home/guest/.config* by the system.
 
+## System Backup versus Personal Backup
+
+## Backup vs Sync
+
+## Backup Best Practices
+### Test Your Backup
+### Local and Off-Site Backups
+### 3-2-1 Rule
+
+## Getting Started:  Included Programs
+### Déjà Dup
+### Back in Time
+### Third-party or DIY Solution
