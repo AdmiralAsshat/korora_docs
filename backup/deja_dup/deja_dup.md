@@ -1,10 +1,10 @@
-How to Backup with Deja-Dup
+How to Backup with Déjà Dup
 ============================
 
-Deja-dup is a simple backup program that should be bundled with most versions of Korora. It will allow you to save copies of your important files, applications, or system settings to a secondary location, where they can be restored if something should happen to your primary computer.
+Déjà Dup is a simple backup program that should be bundled with most versions of Korora. It will allow you to save copies of your important files, applications, or system settings to a secondary location, where they can be restored if something should happen to your primary computer.
 
-### Installing Deja-Dup
-Deja-Dup is preinstalled on the following Korora desktops:
+### Installing Déjà Dup
+Déjà Dup is preinstalled on the following Korora desktops:
 - GNOME
 - Cinnamon
 
@@ -14,19 +14,19 @@ If you need to install it on KDE, XFCE, or Mate, you can either grab the deja-du
 
 When installed, the application will show up in the Menu under **Menu -> Accessories -> Backups**. 
 
-![deja-dup location](assets/backups_in_menu.png "Deja-Dup Menu location")
+![deja-dup location](assets/backups_in_menu.png "Déjà Dup Menu location")
 
 You can still search for the app "deja-dup", and Backups will show in the results.
 
-![deja-dup search](assets/backups_in_search.png "Deja-Dup Search results")
+![deja-dup search](assets/backups_in_search.png "Déjà Dup Search results")
 
 ## Making a Backup
 
-Launch Deja-Dup / Backups. If you have not launched it before, you will need to configure what directories to include by clicking the "Folders to save" tab. By default, the current user's Home directory will be included.
+Launch Déjà Dup / Backups. If you have not launched it before, you will need to configure what directories to include by clicking the "Folders to save" tab. By default, the current user's Home directory will be included.
 
 ![folders to save](assets/folders_to_save.png "Selecting which directories to backup")
 
-Click the tab "Folders to ignore" and add any subdirectories within your Saved folders that you want Deja-Dup to skip.
+Click the tab "Folders to ignore" and add any subdirectories within your Saved folders that you want Déjà Dup to skip.
 
 ![folders to ignore](assets/folders_to_ignore.png "Selecting which directories to ignore")
 
@@ -49,9 +49,9 @@ For those non-local directories that require authentication, you will be prompte
 
 ## Scheduling a Backup to Run Automatically
 
-If you do not wish to run the backup manually each time, deja dup contains settings for scheduling a cron job to run backups automatically for you.
+If you do not wish to run the backup manually each time, Déjà Dup contains settings for scheduling a cron job to run backups automatically for you.
 
-To schedule a backup, open deja dup and click on the "Scheduling" tab. 
+To schedule a backup, open Déjà Dup and click on the "Scheduling" tab. 
 
 ![scheduling menu](assets/scheduling_menu.png "The backup scheduling menu")
 
@@ -63,13 +63,13 @@ When the scheduling function has been enabled, you will then be able to modify t
 
 ### Frequency
 
-Under the "Every" field option, you can determine how frequently the backup should run. Within the deja dup GUI, your options are somewhat limited:  you can select "Week" to run once a week, or "Day" to run every day. You are unable to choose on what day or at what time the backup will take place. According to Deja Dup's [documentation](https://wiki.gnome.org/Apps/DejaDup/HowItWorks), the schedule monitor will "intelligently" figure out when to run the backup based on when you are logged in and when the system was last backed up.
+Under the "Every" field option, you can determine how frequently the backup should run. Within the deja dup GUI, your options are somewhat limited:  you can select "Week" to run once a week, or "Day" to run every day. You are unable to choose on what day or at what time the backup will take place. According to Déjà Dup's [documentation](https://wiki.gnome.org/Apps/DejaDup/HowItWorks), the schedule monitor will "intelligently" figure out when to run the backup based on when you are logged in and when the system was last backed up.
 
 ### Number of Backups to Retain
 
-Under the "Keep" field option, you can determine how many backup versions to keep before Deja Dup will delete them in order to save space. Selecting the option "Forever" will instruct Deja Dup that it should keep all backup files indefinitely and never delete them. Setting the field to "At least six months" will instruct deja dup that it should not prune out any old backups unless they are over six months old. "At least a year" will extend the retention period to one year--you will not have any backups pruned unless they are over a year old.
+Under the "Keep" field option, you can determine how many backup versions to keep before Déjà Dup will delete them in order to save space. Selecting the option "Forever" will instruct Déjà Dup that it should keep all backup files indefinitely and never delete them. Setting the field to "At least six months" will instruct deja dup that it should not prune out any old backups unless they are over six months old. "At least a year" will extend the retention period to one year--you will not have any backups pruned unless they are over a year old.
 
-When either of the options other than "Forever" are set, deja dup will look at the age of the backups when it runs and figure out whether it can safely delete some old files. Per the [documentation](https://wiki.gnome.org/Apps/DejaDup/HowItWorks), the pruning/deletion of old backups is not instant or automatic. The program will first determine whether:
+When either of the options other than "Forever" are set, Déjà Dup will look at the age of the backups when it runs and figure out whether it can safely delete some old files. Per the [documentation](https://wiki.gnome.org/Apps/DejaDup/HowItWorks), the pruning/deletion of old backups is not instant or automatic. The program will first determine whether:
 - Your system has at least two full backups *excluding* the one it wants to delete
 - It can delete the old backup as part of a complete back chain (meaning a full backup and all of its associated incremental backups)
 
@@ -99,11 +99,11 @@ It should then echo back to the console the user's installed crontab. If you see
 
 ## Restoring Files via Deja-Dup
 
-If your file manager does not support direct integration with Deja-Dup, you can use the deja-dup from the command-line to manually restore files.
+If your file manager does not support direct integration with Déjà Dup, you can use the deja-dup command discussed further below from the command-line to manually restore files.
 
 ### Restoring an Individual File
 
-To restore or revert an individual file using Deja-Dup, right-click on the file and select `Revert to Previous Version...`:
+To restore or revert an individual file using Déjà Dup, right-click on the file and select `Revert to Previous Version...`:
 
 ![revert from backup](assets/revert_from_gui.png "Restoring a file to an earlier version found in the backups")
 
@@ -113,7 +113,7 @@ If that option is not available in your File Manager, enter the following comman
 
 ### Restoring a Directory
 
-To restore a directory of all missing files via Deja-Dup, open the directory in question and right-click anywhere inside the folder. Then select the option `Restore Missing Files...`:
+To restore a directory of all missing files via Déjà Dup, open the directory in question and right-click anywhere inside the folder. Then select the option `Restore Missing Files...`:
 ![restore missing files](assets/restore_missing_from_gui.png "Restoring any missing files in a directory found in the backups")
 
 If that option is not available in your File Manager, enter the following command in the terminal:
@@ -123,18 +123,18 @@ If that option is not available in your File Manager, enter the following comman
 
 ## Making Multiple Backups
 
-As recommended by the [3-2-1 rule](http://blog.trendmicro.com/trendlabs-security-intelligence/world-backup-day-the-3-2-1-rule/), you should have multiple backups *in different locations*, and **at least one** should be off-site. Unfortunately, the deja-dup GUI does not allow multiple backup locations or profiles, and as of yet there is no way around this. The feature has been [requested](https://bugs.launchpad.net/deja-dup/+bug/324631) but remains unimplemented at this time.
+As recommended by the [3-2-1 rule](http://blog.trendmicro.com/trendlabs-security-intelligence/world-backup-day-the-3-2-1-rule/), you should have multiple backups *in different locations*, and **at least one** should be off-site. Unfortunately, the Déjà Dup GUI does not allow multiple backup locations or profiles, and as of yet there is no way around this. The feature has been [requested](https://bugs.launchpad.net/deja-dup/+bug/324631) but remains unimplemented at this time.
 
 One way around this is to change the storage location before running the backup. For instance, if you normally backup to an off-site Amazon S3 server, you could plug in a flash drive or external hard-drive, change the Storage Location to the external drive, and run the backup on the external drive once a month. The first time it runs, it would take awhile (because this would be a fresh, full backup on the new device), but the following month when you point the storage to the external drive again, the backup would be incremental and faster. When you are done, revert the Storage Location to the off-site S3 server. The backup destination directory contains information about when it last ran and can determine what has changed since then, and so you should be able to backup to two, mutually exclusive directories that will only keep track of their own backup history without contaminating the other.
 
-Do not be afraid of using another backup solution **in addition to** deja dup. If you are using deja dup to backup your files to an external hard-drive, don't be afraid of manually uploading them to OneDrive/Google Drive/Dropbox, either, just to have an off-site solution. It needn't be through the provided software.
+Do not be afraid of using another backup solution **in addition to** Déjà Dup. If you are using Déjà Dup to backup your files to an external hard-drive, don't be afraid of manually uploading them to OneDrive/Google Drive/Dropbox, either, just to have an off-site solution. It needn't be through the provided software.
 
 ## Summary
 
-We have covered how to install and configure deja dup for a quick-and-dirty, no-hassle backup solution. 
+We have covered how to install and configure Déjà Dup for a quick-and-dirty, no-hassle backup solution. 
 
 Key points to remember:
-- deja-dup should be preinstalled on all versions of Korora except KDE, where BackInTime is preferred
-- deja-dup's default backup settings may be too broad for your use-case, so configure the Folders to Save and Folders to Ignore before running.
+- Déjà Dup should be preinstalled on all versions of Korora except KDE, where BackInTime is preferred
+- Déjà Dup's default backup settings may be too broad for your use-case, so configure the Folders to Save and Folders to Ignore before running.
 - If you don't like running backups manually, you can use the scheduler to have the backups run automatically
-- Deja dup has some shortcomings that cannot be fixed within the GUI. See the sections on manually scheduling backups via the cron or backing up to multiple locations if those are of concern to you
+- Déjà Dup has some shortcomings that cannot be fixed within the GUI. See the sections on manually scheduling backups via the cron or backing up to multiple locations if those are of concern to you
