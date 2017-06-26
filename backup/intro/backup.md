@@ -45,14 +45,14 @@ Be aware that within application directories there may also reside cache subdire
 ## System Backup vs Personal Backup
 
 In order to figure out how best to backup your computer, you first need to decide what on your computer is important to you. For instance, imagine your computer stopped working tomorrow due to a hard-drive crash, and you had nothing backed up. Which of these goals is more relevant to you:
-+ I don't care if I have to put in a new hard-drive and/or reinstall the OS, so long as I get my personal files (documents, pictures, movies, music, etc.) off the old drive first.
-+ I need to get *this* hard-drive working again, because the operating system / applications / configurations on it are essential to my workflow.
+1. I don't care if I have to put in a new hard-drive and/or reinstall the OS, so long as I get my personal files (documents, pictures, movies, music, etc.) off the old drive first.
+2. I need to get *this* hard-drive working again, because the operating system / applications / configurations on it are essential to my workflow.
 
 There is no right or wrong answer. Some people are not particularly attached to their computer so long as they have all of their personal media available. Other people, perhaps power-users, might have configured their system in a very specific way and are not keen on re-doing it.
 
-If you identified more with the first goal, you would likely prefer a Personal/Media-aimed backup. This means that you will primarily be backing up personal files like your documents, your pictures, your songs, etc. Most consumable media tends to be cross-platform, and so a backup of Documents, Pictures, and Music made on one version of Linux could easily carry over to another Linux flavor, or even to Windows and MacOS. 
+If you identified more with the first goal, you would likely prefer a **Personal/Media**-aimed backup. This means that you will primarily be backing up personal files like your documents, your pictures, your songs, etc. Most consumable media tends to be cross-platform, and so a backup of Documents, Pictures, and Music made on one version of Linux could easily carry over to another Linux flavor, or even to Windows and MacOS. 
 
-If the second goal sounds more palatable to you (e.g. if your computer dying tomorrow means you can't work and your business or livelihood becomes threatened), then you may be more interested in pursuing a System Backup. A System Backup aims to preserve the bits that relate to the OS itself and keep it functional. This would allow you to easily revert the system if, say, a bad update suddenly makes your system unusable.
+If the second goal sounds more palatable to you (e.g. if your computer dying tomorrow means you can't work and your business or livelihood becomes threatened), then you may be more interested in pursuing a **System Backup**. A System Backup aims to preserve the bits that relate to the OS itself and keep it functional. This would allow you to easily revert the system if, say, a bad update suddenly makes your system unusable.
 
 While a System-only backup is theoretically possible, it requires a *deep* understanding of the OS and its specific storage locations that most people do not have (include this article's author). In practice, a System Backup is usually performed as part of a Full Disk backup, sometimes called a Snapshot (the term "snapshot" is used heavily in virtualization software, where the snapshot represents the entire VM's disk and state at the time of the snapshot). In a Full Disk backup, the entire hard-drive is copied and imaged. If you need to revert to the backup, the image would be decompressed and applied back onto the drive. This would also allow you to replace the original drive with one of an identical size and then restore the image onto the new drive.
 
@@ -136,6 +136,6 @@ Back in Time is a Qt-based graphical backup application for KDE (although it can
 <a name="third-party-or-diy-solution"></a>
 ### Third-party or DIY Solution
 
-Other applications exist to cover your unique backup needs. Should the backup applications included with Korora not meet your needs, you are encouraged to check out others like [Borg](https://borgbackup.readthedocs.io/en/stable/), [rsnapshot](http://rsnapshot.org/), or [TimeShift](https://github.com/teejee2008/timeshift).
+Other applications exist to cover your unique backup needs. Should the backup applications included with Korora not meet your needs, you are encouraged to check out others like [Borg](https://borgbackup.readthedocs.io/en/stable/), [rsnapshot](http://rsnapshot.org/), or [TimeShift](https://github.com/teejee2008/timeshift). TimeShift, in particular, may be of interest to people who are looking for a System Backup application without creating a full disk image.
 
 You are also welcome to write your own backup scripts. Many backup tools are simply frontends and schedulers built on top of the amazing tool `rsync`. With sufficient knowledge of rsync and an off-site storage provider to dump your backups, it is not difficult to setup a few scripts to run rsync and copy off your data to different locations. 

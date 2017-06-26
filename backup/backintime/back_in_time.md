@@ -41,10 +41,10 @@ When Back in Time is first launched, you will be prompted to configure it for th
 If you ever need to get back to this menu, you can select it under the **Snapshot -> Settings** option.
 
 Under the option "Mode", you will select one of four modes under which the back up will run. These options are:
-- Local - Creates a local snapshot of the selected data. The files will be in plaintext.
-- Local encrypted - Creates a local snapshot of the selected data, but encrypts the snapshot using EncFS for encryption. You will be prompted for an encryption password if you choose this option.
-- SSH - Creates a snapshot of the selected data on a remote server over SSH/rsync. You will be prompted for the remote destination's IP, port, and the user used to connect.
-- SSH encrypted - Creates an encrypted snapshot of the selected data on a remote server.
+- **Local** - Creates a local snapshot of the selected data. The files will be in plaintext.
+- **Local encrypted** - Creates a local snapshot of the selected data, but encrypts the snapshot using EncFS for encryption. You will be prompted for an encryption password if you choose this option.
+- **SSH** - Creates a snapshot of the selected data on a remote server over SSH/rsync. You will be prompted for the remote destination's IP, port, and the user used to connect.
+- **SSH encrypted** - Creates an encrypted snapshot of the selected data on a remote server.
 
 **NOTE**: It is **highly recommended** to encrypt your backups if you are backing up to a remote server that you do not own. The cloud storage provider might claim that they can't see anything on your instance, but why take them at their word? Do you really want even the *possibility* to exist that Amazon could peek at the contents of your AWS instance?
 
