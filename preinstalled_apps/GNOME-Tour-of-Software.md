@@ -1,6 +1,6 @@
 **Table of Contents**  
 
-- [Tour of Korora Software ("I Need a Program That Does This")](#tour-of-korora-software-i-need-a-program-that-does-this)
+- [Tour of GNOME Software ("I Need a Program That Does This")](#tour-of-gnome-software-i-need-a-program-that-does-this)
 - [Office Applications](#office-applications)
 - [Image Editor](#image-editor)
 - [Image Viewers](#image-viewers)
@@ -21,8 +21,8 @@
 
 
 
-<a name="tour-of-korora-software-i-need-a-program-that-does-this"></a>
-# Tour of Korora Software ("I Need a Program That Does This")
+<a name="tour-of-gnome-software-i-need-a-program-that-does-this"></a>
+# Tour of GNOME Software ("I Need a Program That Does This")
 
 One of the core aims of the Korora Project is to provide an out-of-box Linux experience that can take care of the average's users daily needs with entirely free software. To save you the trouble of digging through every preinstalled application, we have compiled a list of the prepackaged applications within each version of Korora that fulfill a specific purpose. This will hopefully save you some trouble from immediately downloading more software when the right tool may already be installed.
 
@@ -35,13 +35,14 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 - [LibreOffice Impress](https://www.libreoffice.org/discover/impress/) (Presentation and slide editor, like Microsoft Powerpoint)
 - [Project Management](https://wiki.gnome.org/Apps/Planner) (plan projects)
 - [GNote](https://wiki.gnome.org/Apps/Gnote) (write short sticky-notes of information)
+- [gedit](http://www.gedit.org) (Under the name "Text Editor")
 
 <a name="image-editor"></a>
 ## Image Editor 
 **PURPOSE**: I Need to Touch Up Some Photos
 - [GIMP](https://www.gimp.org/)
 - [Darktable](http://www.darktable.org/) (Photography and RAW photo developer)
-- [Inkscape](https://inkscape.org/) (Vector graphics editor)
+- [Inkspace](https://inkscape.org/) (Vector graphics editor)
 - [Cura LulzBot Edition](https://www.lulzbot.com/cura) (3D Printing software)
 
 <a name="image-viewers"></a>
@@ -97,7 +98,7 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 
 <a name="e-mail"></a>
 ## E-Mail
-- [Thunderbird](https://www.mozilla.org/en-US/thunderbird/)
+- [Evolution](https://wiki.gnome.org/Apps/Evolution)
 
 <a name="audiovisual-communication"></a>
 ## Audiovisual Communication
@@ -106,7 +107,7 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 
 <a name="chat-applications"></a>
 ## Chat Applications
-- [Pidgin](https://pidgin.im/) (IM app, has compatibility with AIM, Google Talk, XMPP, etc.)
+- [Empathy](https://wiki.gnome.org/Apps/Empathy) (IM app, has compatibility with AIM, Google Talk, XMPP, etc.)
 - [HexChat](https://hexchat.github.io/) (IRC Client)
 
 <a name="torrent-client"></a>

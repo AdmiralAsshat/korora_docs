@@ -41,8 +41,7 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 **PURPOSE**: I Need to Touch Up Some Photos
 - [GIMP](https://www.gimp.org/)
 - [Darktable](http://www.darktable.org/) (Photography and RAW photo developer)
-- [Inkscape](https://inkscape.org/) (Vector graphics editor)
-- [Cura LulzBot Edition](https://www.lulzbot.com/cura) (3D Printing software)
+- [Inkspace](https://inkscape.org/) (Vector graphics editor)
 
 <a name="image-viewers"></a>
 ## Image Viewers
@@ -117,4 +116,4 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 ## System Applications
 - [GParted](http://gparted.org) (Modify and delete system partitions)
 - [Backups](https://launchpad.net/deja-dup) (Create a backup of your system)
-- [ownCloud](https://owncloud.org/) (Self-hosted file sync and share platform)
+- [Back in Time](https://github.com/bit-team/backintime) (Create a backup of your system)(**Preinstalled on KDE only**)
