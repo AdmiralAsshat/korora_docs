@@ -1,6 +1,6 @@
 **Table of Contents**  
 
-- [Tour of Korora Software ("I Need a Program That Does This")](#tour-of-korora-software-i-need-a-program-that-does-this)
+- [Tour of KDE Software ("I Need a Program That Does This")](#tour-of-kde-software-i-need-a-program-that-does-this)
 - [Office Applications](#office-applications)
 - [Image Editor](#image-editor)
 - [Image Viewers](#image-viewers)
@@ -21,8 +21,8 @@
 
 
 
-<a name="tour-of-korora-software-i-need-a-program-that-does-this"></a>
-# Tour of Korora Software ("I Need a Program That Does This")
+<a name="tour-of-kde-software-i-need-a-program-that-does-this"></a>
+# Tour of KDE Software ("I Need a Program That Does This")
 
 One of the core aims of the Korora Project is to provide an out-of-box Linux experience that can take care of the average's users daily needs with entirely free software. To save you the trouble of digging through every preinstalled application, we have compiled a list of the prepackaged applications within each version of Korora that fulfill a specific purpose. This will hopefully save you some trouble from immediately downloading more software when the right tool may already be installed.
 
@@ -34,52 +34,57 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 - [LibreOffice Draw](https://www.libreoffice.org/discover/draw/) (Image and flowchart editor, like Microsoft Visio)
 - [LibreOffice Impress](https://www.libreoffice.org/discover/impress/) (Presentation and slide editor, like Microsoft Powerpoint)
 - [Project Management](https://wiki.gnome.org/Apps/Planner) (plan projects)
-- [GNote](https://wiki.gnome.org/Apps/Gnote) (write short sticky-notes of information)
+- [KJots](https://userbase.kde.org/KJots) (write short sticky-notes of information) (Under the name "Note Taker")
+- [KWrite](https://www.kde.org/applications/utilities/kwrite/) (Text Editor; supports syntax highlighting for code)
 
 <a name="image-editor"></a>
 ## Image Editor 
 **PURPOSE**: I Need to Touch Up Some Photos
+- [KolourPaint](http://www.kolourpaint.org/) (A simple image editor in the vein of MS-Paint)
 - [GIMP](https://www.gimp.org/)
 - [Darktable](http://www.darktable.org/) (Photography and RAW photo developer)
 - [Inkspace](https://inkscape.org/) (Vector graphics editor)
+- [Cura LulzBot Edition](https://www.lulzbot.com/cura) (3D Printing software)
 
 <a name="image-viewers"></a>
 ## Image Viewers
 **PURPOSE**: I Just Want to Look at Some Photos
-- [Eye of GNOME](https://wiki.gnome.org/Apps/EyeOfGnome) (Under the name "Image Viewer")
-- [Shotwell](https://wiki.gnome.org/Apps/Shotwell) (Photo Manger)
+- [Gwenview](https://userbase.kde.org/Gwenview) (Under the name "KDE Image Viewer")
+- [digiKam](https://digikam.org/) (Photo Manger) (Under the name "Photo Management Program")
+- [showFoto](https://docs.kde.org/trunk5/en/extragear-graphics/showfoto/index.html) (Photo Manger/Editor) (Under the name "Photo Viewer and Editor")
 
 <a name="pdf-readers"></a>
 ## PDF Readers
-- [Evince](https://wiki.gnome.org/Apps/Evince) (Under the name "Document Viewer")
+- [Okular](http://okular.kde.org) (Under the name "Document Viewer")
 
 <a name="e-readers"></a>
 ## E-Readers 
-- [FBReader](https://fbreader.org/) (E-book and Comic Book reader)
-- [Evince](https://wiki.gnome.org/Apps/Evince) (Under the name "Document Viewer")
+- [calibre](https://calibre-ebook.com/) (E-book reader)
+- [Okular](http://okular.kde.org) (Under the name "Document Viewer")
 
 <a name="rss-reader"></a>
 ## RSS Reader
-- [Liferea](http://lzone.de/liferea/)
+- [Akregator](https://userbase.kde.org/Akregator) (Under the name "Feed Reader")
+- [KNode](https://www.kde.org/applications/internet/knode/) (Under the name "News Reader")
 
 <a name="scanners"></a>
 ## Scanners 
 **PURPOSE**: I Need to Scan a Document
-- [Simple Scan](https://launchpad.net/simple-scan)
+- [Skanlite](https://www.kde.org/applications/graphics/skanlite/)
 
 <a name="multimedia-players"></a>
 ## Multimedia Players
 **PURPOSE**: I Need to Play Some Music or Video
 - [VLC](http://www.videolan.org/) (Audio and Video player; supports most multimedia formats with no additional codecs)
-- [Rhythmbox](https://wiki.gnome.org/Apps/Rhythmbox/) (Audio player)
+- [Amarok](http://amarok.kde.org) (Audio player)
 
 <a name="multimedia-ripping-and-conversion"></a>
 ## Multimedia Ripping and Conversion
 **PURPOSE**: I Need to Rip My CD or DVD
-- [Brasero](https://wiki.gnome.org/Apps/Brasero) (copies and burns CDs and DVDs)
-- [Handbrake](https://handbrake.fr) (Transcodes CDs, DVDs, and Blurays)
-- [Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) (rips audio CDs to your hard-drive)
-- [Sound Converter](http://soundconverter.org) (Converts audio files to other formats)
+- [K3b](http://www.k3b.org) (copies and burns CDs, DVDs, and Blu-rays)
+- [Handbrake](https://handbrake.fr) (Transcodes CDs, DVDs, and Blu-rays)
+- [KAudioCreator](http://kde-apps.org/content/show.php/KAudioCreator?content=107645) (rips audio CDs to your hard-drive) (Under the name "CD Ripper")
+- [soundKonvertor](https://github.com/dfaust/soundkonverter) (Converts audio files to other formats)
 
 <a name="desktop-recording"></a>
 ## Desktop Recording
@@ -88,32 +93,37 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 <a name="sound-and-video-editing"></a>
 ## Sound and Video Editing
 - [Audacity](http://www.audacityteam.org/) (audio editing program)
-- [Pitivi](http://www.pitivi.org/) (video editing program)
+- [Kdenlive](https://kdenlive.org/) (video editing program)
 
 <a name="internet"></a>
 ## Internet
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
+- [Konqueror](http://konqueror.kde.org) (KDE Default browser; also doubles as a file manager)
+- [Qupzilla](https://www.qupzilla.com/) (A lightweight browser written with Qt)
 
 <a name="e-mail"></a>
 ## E-Mail
-- [Thunderbird](https://www.mozilla.org/en-US/thunderbird/)
+- [KMail](https://www.kde.org/applications/internet/kmail/) (Under the name "Mail Client")
 
 <a name="audiovisual-communication"></a>
 ## Audiovisual Communication
 **PURPOSE**: I Need to Call / Video Conference With Someone
-- [Ekiga Softphone](http://www.ekiga.org)
+- [Linphone](http://www.linphone.org)
 
 <a name="chat-applications"></a>
 ## Chat Applications
-- [Pidgin](https://pidgin.im/) (IM app, has compatibility with AIM, Google Talk, XMPP, etc.)
-- [HexChat](https://hexchat.github.io/) (IRC Client)
+- [KDE Telepathy](https://userbase.kde.org/Telepathy) (Under the name "IM Contacts")
+- [Konversation](http://konversation.kde.org/) (IRC Client)
 
 <a name="torrent-client"></a>
 ## Torrent Client
-- [Transmission](http://www.transmissionbt.com/)
+- [KTorrent](http://www.ktorrent.org/)
 
 <a name="system-applications"></a>
 ## System Applications
-- [GParted](http://gparted.org) (Modify and delete system partitions)
-- [Backups](https://launchpad.net/deja-dup) (Create a backup of your system)
-- [Back in Time](https://github.com/bit-team/backintime) (Create a backup of your system)(**Preinstalled on KDE only**)
+- [KDE Partition Manager](https://www.kde.org/applications/system/kdepartitionmanager/) (Modify and delete system partitions)
+- [Back in Time](https://github.com/bit-team/backintime) (Create a backup of your system)
+- [ownCloud](https://owncloud.org/) (Self-hosted file sync and share platform)
+- [Storage Service Manager](https://github.com/KDE/pim-storage-service-manager) (Under the name "Cloud Storage Manager")
+- [Krfb](https://www.kde.org/applications/system/krfb/) (Under the name "KDE Desktop Sharing")
+- [KRDC](https://www.kde.org/applications/internet/krdc/) (Under the name "KDE Remote Desktop Client")
