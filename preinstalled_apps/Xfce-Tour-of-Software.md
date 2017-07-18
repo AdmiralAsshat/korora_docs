@@ -1,6 +1,6 @@
 **Table of Contents**  
 
-- [Tour of Korora Software ("I Need a Program That Does This")](#tour-of-korora-software-i-need-a-program-that-does-this)
+- [Tour of Xfce Software ("I Need a Program That Does This")](#tour-of-xfce-software-i-need-a-program-that-does-this)
 - [Office Applications](#office-applications)
 - [Image Editor](#image-editor)
 - [Image Viewers](#image-viewers)
@@ -21,8 +21,8 @@
 
 
 
-<a name="tour-of-korora-software-i-need-a-program-that-does-this"></a>
-# Tour of Korora Software ("I Need a Program That Does This")
+<a name="tour-of-xfce-software-i-need-a-program-that-does-this"></a>
+# Tour of Xfce Software ("I Need a Program That Does This")
 
 One of the core aims of the Korora Project is to provide an out-of-box Linux experience that can take care of the average's users daily needs with entirely free software. To save you the trouble of digging through every preinstalled application, we have compiled a list of the prepackaged applications within each version of Korora that fulfill a specific purpose. This will hopefully save you some trouble from immediately downloading more software when the right tool may already be installed.
 
@@ -34,19 +34,17 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 - [LibreOffice Draw](https://www.libreoffice.org/discover/draw/) (Image and flowchart editor, like Microsoft Visio)
 - [LibreOffice Impress](https://www.libreoffice.org/discover/impress/) (Presentation and slide editor, like Microsoft Powerpoint)
 - [Project Management](https://wiki.gnome.org/Apps/Planner) (plan projects)
-- [GNote](https://wiki.gnome.org/Apps/Gnote) (write short sticky-notes of information)
 
 <a name="image-editor"></a>
 ## Image Editor 
 **PURPOSE**: I Need to Touch Up Some Photos
 - [GIMP](https://www.gimp.org/)
-- [Darktable](http://www.darktable.org/) (Photography and RAW photo developer)
 - [Inkspace](https://inkscape.org/) (Vector graphics editor)
 
 <a name="image-viewers"></a>
 ## Image Viewers
 **PURPOSE**: I Just Want to Look at Some Photos
-- [Eye of GNOME](https://wiki.gnome.org/Apps/EyeOfGnome) (Under the name "Image Viewer")
+- [ristretto](http://goodies.xfce.org/projects/applications/ristretto) (Under the name "Ristretto Image Viewer")
 - [Shotwell](https://wiki.gnome.org/Apps/Shotwell) (Photo Manger)
 
 <a name="pdf-readers"></a>
@@ -71,15 +69,15 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 ## Multimedia Players
 **PURPOSE**: I Need to Play Some Music or Video
 - [VLC](http://www.videolan.org/) (Audio and Video player; supports most multimedia formats with no additional codecs)
-- [Rhythmbox](https://wiki.gnome.org/Apps/Rhythmbox/) (Audio player)
+- [Audacious](http://audacious-media-player.org) (Audio player)
 
 <a name="multimedia-ripping-and-conversion"></a>
 ## Multimedia Ripping and Conversion
 **PURPOSE**: I Need to Rip My CD or DVD
-- [Brasero](https://wiki.gnome.org/Apps/Brasero) (copies and burns CDs and DVDs)
+- [Asunder CD Ripper](http://littlesvr.ca/asunder/)
 - [Handbrake](https://handbrake.fr) (Transcodes CDs, DVDs, and Blurays)
-- [Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) (rips audio CDs to your hard-drive)
 - [Sound Converter](http://soundconverter.org) (Converts audio files to other formats)
+- [Xfburn](http://www.xfce.org/projects/xfburn) (CD Burner)
 
 <a name="desktop-recording"></a>
 ## Desktop Recording
@@ -116,4 +114,4 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 ## System Applications
 - [GParted](http://gparted.org) (Modify and delete system partitions)
 - [Backups](https://launchpad.net/deja-dup) (Create a backup of your system)
-- [Back in Time](https://github.com/bit-team/backintime) (Create a backup of your system)(**Preinstalled on KDE only**)
+- [ownCloud](https://owncloud.org/) (Self-hosted file sync and share platform)

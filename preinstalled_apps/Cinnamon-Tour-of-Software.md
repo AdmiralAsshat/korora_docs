@@ -42,6 +42,7 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 - [GIMP](https://www.gimp.org/)
 - [Darktable](http://www.darktable.org/) (Photography and RAW photo developer)
 - [Inkscape](https://inkscape.org/) (Vector graphics editor)
+- [Cura LulzBot Edition](https://www.lulzbot.com/cura) (3D Printing software)
 
 <a name="image-viewers"></a>
 ## Image Viewers
