@@ -26,6 +26,8 @@
 
 One of the core aims of the Korora Project is to provide an out-of-box Linux experience that can take care of the average's users daily needs with entirely free software. To save you the trouble of digging through every preinstalled application, we have compiled a list of the prepackaged applications within each version of Korora that fulfill a specific purpose. This will hopefully save you some trouble from immediately downloading more software when the right tool may already be installed.
 
+The Cinnamon desktop pulls most of its preinstalled programs from GNOME, with a handful of other additions from the upstream [Linux Mint](https://linuxmint.com/) project that develops the Cinnamon desktop. There are also some programs added by Korora.
+
 <a name="office-applications"></a>
 ## Office Applications
 **PURPOSE**: I Need To Edit Some Documents

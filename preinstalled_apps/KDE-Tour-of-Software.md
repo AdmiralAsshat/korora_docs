@@ -26,6 +26,10 @@
 
 One of the core aims of the Korora Project is to provide an out-of-box Linux experience that can take care of the average's users daily needs with entirely free software. To save you the trouble of digging through every preinstalled application, we have compiled a list of the prepackaged applications within each version of Korora that fulfill a specific purpose. This will hopefully save you some trouble from immediately downloading more software when the right tool may already be installed.
 
+The KDE Desktop pulls its preloaded applications from [The KDE Project](https://www.kde.org/), the maintainers of KDE. Almost all KDE applications are developed in-house and **do not** pull in many GNOME apps, as some other distributions do. The KDE desktop has a sizable number of KDE and Qt libraries, and tends to favor applications that are optimized for use with those libraries.
+
+A handful of extra packages are added by Korora.
+
 <a name="office-applications"></a>
 ## Office Applications
 **PURPOSE**: I Need To Edit Some Documents
@@ -43,7 +47,7 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 - [KolourPaint](http://www.kolourpaint.org/) (A simple image editor in the vein of MS-Paint)
 - [GIMP](https://www.gimp.org/)
 - [Darktable](http://www.darktable.org/) (Photography and RAW photo developer)
-- [Inkspace](https://inkscape.org/) (Vector graphics editor)
+- [Inkscape](https://inkscape.org/) (Vector graphics editor)
 - [Cura LulzBot Edition](https://www.lulzbot.com/cura) (3D Printing software)
 
 <a name="image-viewers"></a>

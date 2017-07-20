@@ -39,7 +39,7 @@ One of the core aims of the Korora Project is to provide an out-of-box Linux exp
 ## Image Editor 
 **PURPOSE**: I Need to Touch Up Some Photos
 - [GIMP](https://www.gimp.org/)
-- [Inkspace](https://inkscape.org/) (Vector graphics editor)
+- [Inkscape](https://inkscape.org/) (Vector graphics editor)
 
 <a name="image-viewers"></a>
 ## Image Viewers
