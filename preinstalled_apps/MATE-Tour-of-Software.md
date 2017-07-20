@@ -1,6 +1,6 @@
 **Table of Contents**  
 
-- [Tour of Mate Software ("I Need a Program That Does This")](#tour-of-mate-software-i-need-a-program-that-does-this)
+- [Tour of MATE Software ("I Need a Program That Does This")](#tour-of-mate-software-i-need-a-program-that-does-this)
 - [Office Applications](#office-applications)
 - [Image Editor](#image-editor)
 - [Image Viewers](#image-viewers)

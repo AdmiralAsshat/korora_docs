@@ -26,6 +26,10 @@
 
 One of the core aims of the Korora Project is to provide an out-of-box Linux experience that can take care of the average's users daily needs with entirely free software. To save you the trouble of digging through every preinstalled application, we have compiled a list of the prepackaged applications within each version of Korora that fulfill a specific purpose. This will hopefully save you some trouble from immediately downloading more software when the right tool may already be installed.
 
+Xfce largely uses GNOME apps among its inventory of preinstalled applications. However, a handful of Xfce-specific applications are used as well, such as Xfce's in-house image viewer, ristretto.
+
+On top of this, there are additional packages added by Korora.
+
 <a name="office-applications"></a>
 ## Office Applications
 **PURPOSE**: I Need To Edit Some Documents
